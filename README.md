@@ -53,18 +53,8 @@ The flag `use_tempering` (default: `TRUE`) enables the damped version of VB, as 
 Install dependencies using:
 
 ```r
-install.packages(c("tensorflow", "rstan", "ggplot2", "gridExtra", "gtable", "mvtnorm", "dplyr"))
+install.packages(c( "rstan","Matrix","coda","mvnfast","patchwork","vctrs","tidyr","igraph", "ggplot2", "MASS", "spdep","tictoc" ,"mvtnorm", "dplyr","reshape2"))
 ```
 
-For TensorFlow, install version 2.14+ using:
-
-```r
-library(tensorflow)
-install_tensorflow(version = "2.14")
-```
-
-If prompted, accept the installation of Miniconda.
-
----
 
 For detailed installation instructions and system requirements, refer to the respective package documentation.
