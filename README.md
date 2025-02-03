@@ -1,6 +1,6 @@
 # SEM Estimation under MNAR
 
-This folder contains R code for estimating **Structural Equation Models (SEM)** under **Missing Not at Random (MNAR)** conditions using:
+This folder contains R code for the 2 simulations and 2 real examples in the main SEM manuscript, and in the online supplement:
 
 - **Variational Bayes (VB) algorithms**
 - **Hamiltonian Monte Carlo (HMC) algorithm**
