@@ -20,9 +20,9 @@ Each example is stored in a separate folder, which contains the following sub-fo
 
 To reproduce results in the manuscript, for example, the **Linear mixed model**:
 
-1. **Download the `1_Linear` folder.**
+1. **Download the `Real_MAR` folder.**
 2. **Set the working directory** to this folder.
-3. **Run** the `linear_mm_main.R` script.
+3. **Run** the `implement.R` script.
 
 Similarly, for other examples, set the working directory to the respective folder before running the corresponding `*_main.R` script.
 
