@@ -11,9 +11,9 @@ This folder contains R code for the 2 simulations and 2 real examples in the mai
 
 Each example is stored in a separate folder, which contains the following sub-folders:
 
-- **sourceVB/**: Contains the R code to run the VB algorithms.
-- **sourceHMC/**: Contains the R code to run the HMC algorithms.
-- **implement/**: Contains the R code to implement all algorithms, and generate plots.
+- **source.R**: Contains the R code to run the VB algorithms.
+- **SEM_MNAR_HMC.stan**: Contains the stan code to run the HMC algorithms.
+- **implement.R**: Contains the R code to implement all algorithms, and generate plots.
 
 
 ## Running the Scripts
@@ -24,9 +24,9 @@ To reproduce results in the manuscript, for example, the **Linear mixed model**:
 2. **Set the working directory** to this folder.
 3. **Run** the `implement.R` script.
 
-Similarly, for other examples, set the working directory to the respective folder before running the corresponding `*_main.R` script.
+Similarly, for other examples, set the working directory to the respective folder before running the corresponding `*source.R` script.
 
-### **Reproducing Pre-Saved Results**
+<!--### **Reproducing Pre-Saved Results**-->
 
 To generate plots and output using pre-saved data:
 
