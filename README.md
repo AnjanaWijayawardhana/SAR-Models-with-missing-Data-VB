@@ -5,7 +5,7 @@ This folder contains R code for the two simulations and two real-world examples 
 - **Simulation1: SEM under MAR n=625, with **75%** missing data**
 - **Simulation2: SEM under MNAR n=625, with **75%** missing data**
 - **Real example1:SEM under MAR with **75%** missing data**
-- **Real example2:SEM under MNAR with **75** missing data**
+- **Real example2:SEM under MNAR with **75%** missing data**
 
 ## Folder Structure
 
