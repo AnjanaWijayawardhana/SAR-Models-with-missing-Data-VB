@@ -135,7 +135,7 @@ toc()
 
 #HMC
 stan.data.list<-make.SATN.data(x=x,xm=xm,w=w,m=m,y=yo)
-file.path="SEM_MNAR_xm_transformed_2.stan"
+file.path="SEM_MNAR_HMC.stan"
 iter=10000
 tic()
 fit_SEM_MNAR_HMC_thetayu<-stan(file = file.path,
