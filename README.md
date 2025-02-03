@@ -7,28 +7,14 @@ This folder contains R code for the 2 simulations and 2 real examples in the mai
 -  **Simulation: SEM under MNAR n=625, with $75%\$ missing data**
 - **Real example:SEM under MNAR n=625, with $75%\$ missing data**
 
-## Examples Included
-
-The folder contains R code for several examples:
-
-1. **Linear mixed model** with simulated data
-2. **Logistic mixed model** with simulated data
-3. **Logistic mixed model** applied to the Six City dataset
-4. **Logistic mixed model** applied to the POLYPHARMACY dataset
-5. **Poisson mixed model** with simulated data
-6. **Poisson mixed model** applied to the Epilepsy dataset (online supplement)
-
-The **big data example** in Section S6 of the online supplement uses the same code as example #2, but with the dataset size changed to **N = 5000** and **n = 10**.
-
 ## Folder Structure
 
 Each example is stored in a separate folder, which contains the following sub-folders:
 
-- **source/**: Contains the R code to run the VB and HMC algorithms.
-- **results/**: Stores output from the source code (both VB and HMC outputs).
-- **plots/**: Contains posterior density plots and bivariate posterior plots for model parameters.
-- **var_test/**: Includes R code, output, and plots for variance testing of VB results at different Monte Carlo sample sizes (see Section S3 of the supplement).
-- **multi_sims/**: Includes R code, output, and plots for repeated simulations of the linear, logistic, and Poisson models (see Section S4 of the supplement).
+- **sourceVB/**: Contains the R code to run the VB algorithms.
+- **sourceHMC/**: Contains the R code to run the HMC algorithms.
+- **implement/**: Contains the R code to implement all algorithms, and generate plots.
+
 
 ## Running the Scripts
 
