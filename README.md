@@ -2,7 +2,7 @@
 
 This folder contains R code for the 2 simulations and 2 real examples in the main SEM manuscript, and in the online supplement:
 
-- **Variational Bayes (VB) algorithms**
+- **Simulation: SEM under MAR n=625, with $75%\$ missing data**
 - **Hamiltonian Monte Carlo (HMC) algorithm**
 
 ## Examples Included
