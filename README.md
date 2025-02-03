@@ -1,4 +1,4 @@
-# SEM Estimation under MNAR
+# Variational Bayes Inference for Simultaneous Autoregressive Models with Missing Data
 
 This folder contains R code for the 2 simulations and 2 real examples in the main SEM manuscript, and in the online supplement:
 
