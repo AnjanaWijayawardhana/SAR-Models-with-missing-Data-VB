@@ -1,11 +1,11 @@
 # Variational Bayes Inference for Simultaneous Autoregressive Models with Missing Data
 
-This folder contains R code for the 2 simulations and 2 real examples in the main SEM manuscript, and in the online supplement:
+This folder contains R code for the two simulations and two real-world examples presented in the main SEM manuscript and the online supplement:
 
 - **Simulation1: SEM under MAR n=625, with **75%** missing data**
-- **Simulation2: SEM under MNAR n=625, with $75%\$ missing data**
-- **Real example1:SEM under MAR with $75%\$ missing data**
-- **Real example2:SEM under MNAR with $75%\$ missing data**
+- **Simulation2: SEM under MNAR n=625, with **75%** missing data**
+- **Real example1:SEM under MAR with **75%** missing data**
+- **Real example2:SEM under MNAR with **75** missing data**
 
 ## Folder Structure
 
