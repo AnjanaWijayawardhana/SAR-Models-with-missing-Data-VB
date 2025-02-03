@@ -1,4 +1,4 @@
-# Lead required libreries
+# Load required libraries
 
 library(igraph)
 library(MASS)
