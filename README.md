@@ -2,10 +2,10 @@
 
 This folder contains R code for the 2 simulations and 2 real examples in the main SEM manuscript, and in the online supplement:
 
-- **Simulation: SEM under MAR n=625, with $75%\$ missing data**
-- **Real example:SEM under MAR n=625, with $75%\$ missing data**
--  **Simulation: SEM under MNAR n=625, with $75%\$ missing data**
-- **Real example:SEM under MNAR n=625, with $75%\$ missing data**
+- **Simulation1: SEM under MAR n=625, with $75%\$ missing data**
+- **Simulation2: SEM under MNAR n=625, with $75%\$ missing data**
+- **Real example1:SEM under MAR with $75%\$ missing data**
+- **Real example2:SEM under MNAR with $75%\$ missing data**
 
 ## Folder Structure
 
