@@ -26,7 +26,7 @@ To reproduce results in the manuscript, for example, the **Linear mixed model**:
 
 Similarly, for other examples, set the working directory to the respective folder before running the corresponding `*source.R` script.
 
-<!--### **Reproducing Pre-Saved Results**-->
+<!--### **Reproducing Pre-Saved Results**
 
 To generate plots and output using pre-saved data:
 
@@ -38,7 +38,7 @@ To generate plots and output using pre-saved data:
 - **Section S3 (Variance Testing)**: Run `var_test_*.R` files in `Logistic/var_test` and `Polypharmacy/var_test` folders.
 - **Section S4 (Repeated Simulations)**: Run `*_multi_sims.R` files in `1_Linear/multi_sims/`, `2_Logistic/multi_sims/`, and `5_Poisson/multi_sims/` folders.
 
-The flag `use_tempering` (default: `TRUE`) enables the damped version of VB, as used in the paper.
+The flag `use_tempering` (default: `TRUE`) enables the damped version of VB, as used in the paper.-->
 
 ## RStudio and Package Requirements
 
