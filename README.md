@@ -24,7 +24,7 @@ To reproduce results in the manuscript, for example, the **Simulation1: SEM unde
 2. **Set the working directory** to this folder.
 3. **Run** the `implement.R` script.
 
-Similarly, for other examples, set the working directory to the respective folder before running the corresponding `*source.R` script.
+Similarly, for other examples, set the working directory to the respective folder before running the corresponding `implement.R` script.
 
 <!--### **Reproducing Pre-Saved Results**
 
