@@ -53,7 +53,7 @@ The flag `use_tempering` (default: `TRUE`) enables the damped version of VB, as 
 Install dependencies using:
 
 ```r
-install.packages(c( "rstan","Matrix","coda","mvnfast","patchwork","vctrs","tidyr","igraph", "ggplot2", "MASS", "spdep","tictoc" ,"mvtnorm", "dplyr","reshape2"))
+install.packages(c( "rstan","Matrix","coda","mvnfast","patchwork","vctrs","tidyr","igraph", "ggplot2", "MASS", "spdep","tictoc" ,"mvtnorm", "dplyr","reshape2","spatialreg"))
 ```
 
 
