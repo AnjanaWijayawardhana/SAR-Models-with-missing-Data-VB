@@ -20,7 +20,7 @@ Each example is stored in a separate folder, which contains the following sub-fo
 
 To reproduce results in the manuscript, for example, the **Simulation1: SEM under MAR n=625, with **75%** missing data**:
 
-1. **Download the `Real_MAR` folder.**
+1. **Download the `Sim_MAR` folder.**
 2. **Set the working directory** to this folder.
 3. **Run** the `implement.R` script.
 
