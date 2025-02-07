@@ -12,7 +12,7 @@ This folder contains R code for the two simulations and two real-world examples 
 Each example is stored in a separate folder, which contains the following sub-folders:
 
 - **source.R**: Contains the R code to run the VB algorithms.
-- **SEM_MNAR_HMC.stan**: Contains the stan code to run the HMC algorithms.
+- **SEM_MNAR_HMC.stan**: Contains the stan code to run the HMC algorithms (Only for the simulations).
 - **implement.R**: Contains the R code to implement all algorithms, and generate plots.
 
 
