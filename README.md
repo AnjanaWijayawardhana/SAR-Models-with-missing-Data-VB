@@ -1,4 +1,4 @@
-# Variational Bayes Inference for Simultaneous Autoregressive Models with Missing Data
+# Variational Bayes Inference for Simultaneous Autoregressive Models with Missing Data (Wijayawardhana, A., Gunawan, D., and Suesse, T.
 
 This folder contains R code for the two simulations and two real-world examples presented in the main manuscript and the online supplement:
 
