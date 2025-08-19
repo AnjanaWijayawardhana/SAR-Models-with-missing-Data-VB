@@ -7,6 +7,8 @@ This repository contains R code for two simulations and two real-world examples 
 - **Real example1:SEM under MAR with **75%** missing data (Real_MAR)**
 - **Real example2:SEM under MNAR with **75%** missing data (Real_MNAR)**
 
+---
+
 ## Folder Structure
 
 Each example is stored in a separate folder, which contains the following sub-folders:
@@ -14,6 +16,8 @@ Each example is stored in a separate folder, which contains the following sub-fo
 - **source.R**: Contains the R code to run the VB algorithms.
 - **implement.R**: Contains the R code to implement all algorithms, and generate plots.
 - **SEM_MNAR_HMC.stan**: Contains the stan code to run the HMC algorithms (Only for the simulations).
+
+---
 
 ## Running the Scripts
 
