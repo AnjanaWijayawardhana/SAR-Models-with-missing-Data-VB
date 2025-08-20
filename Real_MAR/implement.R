@@ -7,8 +7,10 @@ source("source.R")
 # Extract W
 
 hlw <- nb2listw(e80_queen,zero.policy = TRUE)
-hsn <- listw2sn(hlw)
-W<- as(hlw, "CsparseMatrix")
+# Convert listw to a dense matrix
+W_dense <- listw2mat(hlw)
+# Convert dense matrix to sparse CsparseMatrix
+W <- Matrix(W_dense, sparse = TRUE)
 
 # Extract x and y
 
@@ -525,3 +527,4 @@ pp=pp.con.vb1+pp.con.vbnob+plot_layout(ncol = 2,nrow = 1)
 ggsave(
   "con_vb_elec_MAR.png"
   ,plot = pp,width = 1350,height = 600,units = "px")
+
