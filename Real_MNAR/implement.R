@@ -2,8 +2,13 @@ source("source.R")
 ############################# Data set
 
 # Extract W
+
 hlw <- nb2listw(e80_queen,zero.policy = TRUE)
-W<- as(hlw, "CsparseMatrix")
+# Convert listw to a dense matrix
+W_dense <- listw2mat(hlw)
+# Convert dense matrix to sparse CsparseMatrix
+W <- Matrix(W_dense, sparse = TRUE)
+
 
 
 # Extract x and y
@@ -661,6 +666,7 @@ ggsave(
   "con_vb_MNAR_elec.png"
   ,plot = pp,width = 1350,height = 1100,units = "px")
 nu
+
 
 
 
